@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7655E2611F87F57C004871DA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7655E2601F87F57C004871DA /* main.cpp */; };
+		7655E2681F87F5B0004871DA /* complexDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7655E2671F87F5B0004871DA /* complexDriver.cpp */; };
+		7655E26B1F87F7F3004871DA /* complex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7655E2691F87F7F3004871DA /* complex.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		7655E25D1F87F57C004871DA /* CSS 342 Assignment 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CSS 342 Assignment 1"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7655E2601F87F57C004871DA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7655E2671F87F5B0004871DA /* complexDriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = complexDriver.cpp; sourceTree = "<group>"; };
+		7655E2691F87F7F3004871DA /* complex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = complex.cpp; sourceTree = "<group>"; };
+		7655E26A1F87F7F3004871DA /* complex.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = complex.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		7655E25F1F87F57C004871DA /* CSS 342 Assignment 1 */ = {
 			isa = PBXGroup;
 			children = (
-				7655E2601F87F57C004871DA /* main.cpp */,
+				7655E2671F87F5B0004871DA /* complexDriver.cpp */,
+				7655E2691F87F7F3004871DA /* complex.cpp */,
+				7655E26A1F87F7F3004871DA /* complex.hpp */,
 			);
 			path = "CSS 342 Assignment 1";
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7655E2611F87F57C004871DA /* main.cpp in Sources */,
+				7655E26B1F87F7F3004871DA /* complex.cpp in Sources */,
+				7655E2681F87F5B0004871DA /* complexDriver.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
